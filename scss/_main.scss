@@ -1,0 +1,82 @@
+.app {
+    margin-top: 20px;
+    // min-height: 60vh;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+
+    &__title {
+        margin: 20px 15px 90px 15px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+
+        &::after {
+            content: "";
+            ;
+            width: 90%;
+            height: 2px;
+            margin: 0 auto;
+            background-color: rgba($color: gray, $alpha: 0.1);
+        }
+    }
+
+
+
+    .bars {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bars {
+        display: flex;
+        align-items: flex-end;
+        height: 210px;
+        margin-bottom: 30px;
+    }
+
+    .bar {
+        text-align: center;
+        flex-basis: 15%;
+    }
+
+    .bar {
+        height: 280px;
+        // background-color: red;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        &-notify {
+            font-size: 9px;
+            display: none;
+            width: 100%;
+            padding: 10px 5px;
+            border-radius: 5px;
+            background-color: $neutral-brown;
+            color: white;
+
+            @media (min-width:480px) {
+                font-size: 1rem;
+            }
+
+            &.active {
+                display: block;
+            }
+        }
+
+        &-day {
+            margin: 15%;
+            background-color: $primary-color-red;
+            border-radius: 5px;
+
+            &.active {
+                background-color: $primary-color-cyan;
+            }
+        }
+    }
+}

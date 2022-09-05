@@ -1,0 +1,23 @@
+.submit {
+    padding: 25px 20px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-width:800px) {
+        padding: 45px 40px 30px 40px;
+    }
+
+    .amount {
+        &--total {}
+
+        &--value {
+            font-size: 24px;
+            font-weight: bold;
+
+            @media (min-width:800px) {
+                font-size: 48px;
+            }
+        }
+    }
+}

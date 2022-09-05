@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background: $neutral-cream;
+}
+
+.wrapper {
+    padding: 10px;
+    margin: 0 auto;
+
+    @media (min-width:810px) {
+        max-width: 800px;
+    }
+}
+
+div {
+    user-select: none;
+}

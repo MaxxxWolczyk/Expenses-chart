@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Expenses chart component</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="balance">
+        <p class="balance__title">My balance</p>
+        <p class="balance__amount">$<span class="balance__money">921.48</span>
+        </p>
+      </div>
+      <div class="logo">
+        <img class="logo__image" src="./images/logo.svg" alt="Logo firmy">
+      </div>
+    </header>
+    <section class="app">
+      <h2 class="app__title">Spending - Last 7 days</h2>
+      <section class="main">
+        <div class="main__bars bars">
+          <div class="bar">
+            <div class="bar-notify">
+            </div>
+            <div class="bar--mon bar-day"></div>
+            <p data-target="mon">mon</p>
+          </div>
+          <div class="bar">
+            <div class="bar-notify">$52.54
+            </div>
+            <div class="bar--tue bar-day"></div>
+            <p data-target="tue">tue</p>
+          </div>
+          <div class="bar">
+            <div class="bar-notify">
+            </div>
+            <div class="bar--wed bar-day"></div>
+            <p data-target="wed">wed</p>
+          </div>
+          <div class="bar">
+            <div class="bar-notify">
+            </div>
+            <div class="bar--thu bar-day"></div>
+            <p data-target="thu">thu</p>
+          </div>
+          <div class="bar">
+            <div class="bar-notify">
+            </div>
+            <div class="bar--fri bar-day"></div>
+            <p data-target="fri">fri</p>
+          </div>
+          <div class="bar">
+            <div class="bar-notify">
+            </div>
+            <div class="bar--sat bar-day"></div>
+            <p data-target="sat">sat</p>
+          </div>
+          <div class="bar">
+            <div class="bar-notify">
+            </div>
+            <div class="bar--sun bar-day"></div>
+            <p data-target="sun">sun</p>
+          </div>
+        </div>
+      </section>
+      <section class="submit">
+        <div class="submit__amout amount">
+          <p class="amount--total">Total this month</p>
+          <div class="amount--value">$<span>478.33</span></div>
+        </div>
+        <div class="submit__percents percents">
+          <div class="percents--amount">+2,4%</div>
+          <p class="percents--amount">from last month</p>
+        </div>
+      </section>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.header {
+    background: $primary-color-red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin-top: 10%;
+
+
+    .balance {
+        color: white;
+
+        &__title {
+            font-size: 18px;
+        }
+
+        &__amount {
+            font-weight: 700;
+            font-size: 28px;
+        }
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        &__image {
+            width: 70px;
+        }
+    }
+}
