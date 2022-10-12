@@ -47,7 +47,7 @@ const dataFetch = (bar) => {
 
 const barEvent = (bar) => {
     if (((window.innerWidth <= 800) && (window.innerHeight <= 600))) {
-        bar.childNodes[3].addEventListener("click", () => {
+        bar.childNodes[3].addEventListener("click tap", () => {
             bar.childNodes[1].classList.toggle("active");
             bar.childNodes[3].classList.toggle("active");
 
